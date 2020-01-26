@@ -1,3 +1,4 @@
+print("Towers Of Hanoi")
 def tower_of_hanoi(n, source,destination,temp):
     if(n==1):
         disk=source.pop(0) #Removes the element in specified position
